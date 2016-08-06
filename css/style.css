@@ -27,6 +27,7 @@ body {
     width: 100%;
     top: 0;
     min-width: 940px;
+    color:#999;
 }
 
 #header:before {
