@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+    <link rel="icon" type="image/png" href="favicon.png">
+    <title>LoftSchool - тестовое задание</title>
+	<meta name="keywords" content="LoftSchool - тестовое задание" />
+	<meta name="description" content="LoftSchool - тестовое задание" />
+	<link href='https://fonts.googleapis.com/css?family=Fira+Sans:400,300,400italic,500,300italic,500italic,700,700italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+	
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+</head>
+<body>
+	<div id=header>
+		<div class=user_info>
+			<img class=user_img alt="avatar" src="img/ava.png">
+			<div class=user_data>
+				<div class=user_name>Быстров Борис Викторович</div>
+				<div class=user_email>bystrov@gmail.com</div>
+			</div>
+		</div>
+		<div class=social_ref>
+			<a href=# class=git></a>
+			<a href=# class=sk></a>
+			<a href=# class=vk></a>
+		</div>
+	</div>
+	<div id=content>
+		<div class='main_blk'>
+			<table id=aj_table url=load_table.php>
+				<thead>
+					<tr>
+						<td>id</td>
+						<td>name</td>
+						<td>test</td>
+					</tr>
+				</thead>
+				<tbody>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<div id=footer>
+		<div>
+			Это футер, с текстом внутри. Он должен быть прибит к низу окна браузера,<br>
+			не зависимо от количества контента на странице и размера окна.
+		</div>
+	</div>
+	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="js/jquery.ajax_table.js"></script>
+	<script>
+		$('#aj_table').ajax_table()
+	</script>
+</body>
+</html>
